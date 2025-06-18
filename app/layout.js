@@ -22,7 +22,7 @@ export const metadata = {
     title: "Al Quran - Read, Listen & Learn | Digital Quran App",
     description:
       "Read the Al Quran online with translation, transliteration, and audio. Explore all Surahs, verses, and tafsir. Best digital Quran app for learning and recitation.",
-    url: "https://yourdomain.com/",
+    url: "https://al-quran-web-sigma.vercel.app/",
     type: "website",
     images: [
       {
@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
           content="Read the Al Quran online with translation, transliteration, and audio. Explore all Surahs, verses, and tafsir. Best digital Quran app for learning and recitation."
         />
         <meta property="og:image" content="/logoicon.png" />
-        <meta property="og:url" content="https://yourdomain.com/" />
+        <meta property="og:url" content="https://al-quran-web-sigma.vercel.app/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -71,7 +71,7 @@ export default function RootLayout({ children }) {
           content="Read the Al Quran online with translation, transliteration, and audio. Explore all Surahs, verses, and tafsir. Best digital Quran app for learning and recitation."
         />
         <meta name="twitter:image" content="/logoicon.png" />
-        <link rel="canonical" href="https://yourdomain.com/" />
+        <link rel="canonical" href="https://al-quran-web-sigma.vercel.app/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -79,10 +79,10 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Al Quran",
-              url: "https://yourdomain.com/",
+              url: "https://al-quran-web-sigma.vercel.app/",
               potentialAction: {
                 "@type": "SearchAction",
-                target: "https://yourdomain.com/?q={search_term_string}",
+                target: "https://al-quran-web-sigma.vercel.app/?q={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
             }),
